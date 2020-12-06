@@ -68,6 +68,12 @@
   /*   width: 270px; */
   flex-basis: calc(100% / 3);
 }
+.our-features-icon {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+}
 .our-features-item:not(:last-child) {
   margin-right: var(--item-list-gap);
 }
