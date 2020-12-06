@@ -1,7 +1,16 @@
 /* hero. background is temporarily set */
 .hero {
-  background-color: var(--hero-and-footer-background-color);
   text-align: center;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .our-team.section {
   background-color: var(--secondary-background-color);
