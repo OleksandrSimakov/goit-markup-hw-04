@@ -8,7 +8,9 @@ secondary black colour (grey header and paragraphs) #757575
 primary white colour #FFFFFF
 footer white colour rgba(255, 255, 255, 0.6) 
 header border color #ECECEC
-portfolio border color #EEEEEE*/
+portfolio border color #EEEEEE
+icon-color #AFB1B8
+*/
 
 :root {
   --primary-black-color: #212121;
@@ -20,7 +22,8 @@ portfolio border color #EEEEEE*/
   --header-border-color: #ececec;
   --footer-white-color: rgba(255, 255, 255, 0.6);
   --portfolio-border-color: #eeeeee;
-  --item-list-gap: 30px;
+  --item-list-gap: 16px;
+  --icon-color: #afb1b8;
 }
 
 /* body */
@@ -199,6 +202,7 @@ button {
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-heading {
   margin-bottom: 50px;
